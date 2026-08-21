@@ -415,3 +415,29 @@ footer {
     }
 
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th,
+td {
+    padding: 15px;
+    border: 1px solid #263044;
+    text-align: left;
+}
+
+th {
+    background: #111827;
+    color: #38bdf8;
+}
+
+tr:hover {
+    background: #172033;
+}
+
+.table-container {
+    overflow-x: auto;
+}
